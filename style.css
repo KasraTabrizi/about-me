@@ -1,0 +1,21 @@
+body{
+    
+}
+
+article{
+    background-color: #A38560;
+}
+
+#profile_description img{
+    width: 20%;
+    border-radius: 50%;
+    border: 2px solid #A38560;
+}
+
+#quote{
+    background-color: #C6A15B;
+}
+
+footer{
+    background-color: #422040;
+}
