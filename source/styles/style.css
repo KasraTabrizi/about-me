@@ -31,11 +31,12 @@ nav ul li:nth-child(-n+4){
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: baseline;
 }
 
 article{
-    background-color: #A38560;
+    background-color: rgba(163, 133, 96, 0.432);
 }
 
 #profile_section{
