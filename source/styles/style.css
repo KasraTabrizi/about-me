@@ -15,7 +15,11 @@ header nav ul li a{
 header nav ul li{
     list-style-type: none;
     display: inline-block;
-    margin-left: 20px;
+    
+}
+
+li:nth-child(-n+4){
+    margin-right: 20px;
 }
 
 header{
@@ -29,28 +33,41 @@ header{
     color: black;
 }
 
-header img{
-    border: 1px solid black;
-}
-
-nav{
-    margin-left: 800px;
-    border: 1px solid black;
-}
-
 article{
     background-color: #A38560;
 }
 
+#profile_section{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 50px 0 50px 0;
+}
+
 #profile_section img{
-    width: 10%;
-    height: 20%;
-    border-radius: 10%;
+    width: 20%;
+    border-radius: 25px 0 0 25px;
     border: 2px solid #A38560;
+}
+
+article{
+    width: 60%;
+    margin-left: 50px;
+    border-radius: 0 25px 25px 0;
+    padding-left: 50px;
 }
 
 #quote{
     background-color: #C6A15B;
+}
+
+#skills_section{
+    text-align: center;
+}
+
+.skill_wrapper{
+    display: flex;
+    justify-content: center;
 }
 
 footer{
