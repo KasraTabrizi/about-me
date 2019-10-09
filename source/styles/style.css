@@ -36,7 +36,7 @@ header{
 }
 
 article{
-    background-color: rgba(163, 133, 96, 0.432);
+    background-color: rgba(163, 133, 96, 0.5);
 }
 
 #profile_section{
@@ -49,7 +49,7 @@ article{
 .profile_img{
     width: 20%;
     border-radius: 25px 0 0 25px;
-    border: 2px solid #A38560;
+    border: 5px solid rgba(163, 133, 96, 0.5);;
 }
 
 
@@ -73,7 +73,7 @@ article ul{
 
 article ul li{
     padding-right: 10px;
-    transition: 0.4s cubic-bezier(.12,-0.57,.77,1.41);
+    transition: 0.3s cubic-bezier(.12,-0.57,.77,1.41);
 }
 
 article ul li:hover{
