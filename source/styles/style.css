@@ -72,16 +72,16 @@ article h2{
     border-bottom: 2px solid black;
 }
 
-article ul{
+article ul, footer ul{
     padding: 20px 0;
 }
 
-article ul li{
+article ul li, footer ul li{
     padding-right: 10px;
     transition: 0.3s cubic-bezier(.12,-0.57,.77,1.41);
 }
 
-article ul li:hover{
+article ul li:hover, footer ul li:hover{
     transform: scale(1.2) translateY(-5px);
 }
 
@@ -166,19 +166,73 @@ article ul li:hover{
 }
 
 .gallery_wrapper img:hover{
-    transform: scale(1.5) tra;
+    transform: scale(1.5);
     border-radius: 15px;
     box-shadow: 0px 4px 18px 0px rgba(163, 162, 163, 0.836);
 }
-
+/*
 #info_wrapper, #form_wrapper{
     border: 1px solid black;
+}
+*/
+#info_wrapper{
+    padding-right: 20px;
+}
+
+#info_wrapper h2{
+    margin-top:0;
+}
+
+#info_wrapper p{
+    margin-top: 50px;
+}
+
+#info_wrapper ul{
+   margin-right: 100px;
 }
 
 #footer_wrapper{
     /*background-color: #422040;*/
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
+}
+
+input[type=text],
+input[type=email],
+textarea{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+input[type=submit]{
+    border: none;
+    background: none;
+    background-color:rgba(198, 160, 91, 0.8);
+    color: rgba(0, 0, 0, 0.616);
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    box-shadow: 0px 4px 5px 0px rgba(216, 206, 216, 0.795);
+    transition: 0.2s ease-in;
+}
+
+input[type=submit]:hover{
+    transform: translateY(2px);
+    color: white;
+}
+
+textarea{
+    resize: none;
+}
+
+.form_section{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
 }
 
 .copyright{
