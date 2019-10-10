@@ -260,11 +260,7 @@ article ul li:hover, footer ul li:hover{
     border-radius: 15px;
     box-shadow: 0px 4px 18px 0px rgba(163, 162, 163, 0.836);
 }
-/*
-#info_wrapper, #form_wrapper{
-    border: 1px solid black;
-}
-*/
+
 #info_wrapper{
     padding-right: 20px;
 }
@@ -287,7 +283,6 @@ article ul li:hover, footer ul li:hover{
 }
 
 #footer_wrapper{
-    /*background-color: #422040;*/
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
