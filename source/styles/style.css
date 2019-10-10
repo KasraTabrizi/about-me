@@ -184,11 +184,16 @@ article ul li:hover, footer ul li:hover{
 }
 
 #info_wrapper p{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #info_wrapper ul{
    margin-right: 100px;
+}
+
+#info_wrapper p small a{
+    text-decoration: none;
+    color: black;
 }
 
 #footer_wrapper{
@@ -239,6 +244,10 @@ textarea{
 .form_section{
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
+}
+
+small{
+    font-size: 0.7em;
 }
 
 .copyright{
