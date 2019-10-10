@@ -26,7 +26,6 @@ header h1:hover{
     transform: scale(0.9);
 }
 
-
 header a{
     text-decoration: none;
     color: black;
@@ -41,6 +40,7 @@ header ul li{
     position: relative;
 }
 
+/*Adding line animation below the menu in the navbar*/
 header ul li:after{
     position: absolute;
     top: 100%;
@@ -179,7 +179,7 @@ article ul li:hover, footer ul li:hover{
     text-align: center;
     margin-bottom: 200px;
 }
-
+/*Adding a line before and after the skill and gallery header*/
 #skills_section h2::before,
 #skills_section h2::after,
 #gallery_section h2:before,
@@ -196,7 +196,7 @@ article ul li:hover, footer ul li:hover{
     justify-content: space-evenly;
     margin: 0 250px;
 }
-
+/*Styling for the name of each skills and the level*/
 .html_logo{
     border-radius:15px;
     background-color: #DE4B25;
@@ -261,7 +261,7 @@ article ul li:hover, footer ul li:hover{
     margin: 20px;
     transition: 0.5s ease-in;
 }
-
+/*Animation for enlarging the images as you hover over them*/
 .gallery_wrapper img:hover{
     transform: scale(1.5);
     border-radius: 15px;
@@ -294,7 +294,7 @@ article ul li:hover, footer ul li:hover{
     justify-content: center;
     margin-bottom: 50px;
 }
-
+/*Styling the contact form*/
 input[type=text],
 input[type=email],
 textarea{
