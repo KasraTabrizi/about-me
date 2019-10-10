@@ -171,7 +171,16 @@ article ul li:hover{
     box-shadow: 0px 4px 18px 0px rgba(163, 162, 163, 0.836);
 }
 
-footer{
+#info_wrapper, #form_wrapper{
+    border: 1px solid black;
+}
+
+#footer_wrapper{
     /*background-color: #422040;*/
-   
+    display: flex;
+    justify-content: center;
+}
+
+.copyright{
+    text-align: center;
 }
