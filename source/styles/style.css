@@ -101,19 +101,21 @@ article ul li:hover{
     position: absolute;
     top: -10px;
     left: 0;
-    font-size: 6em;
+    font-size: 5em;
     color:rgba(250, 235, 215, 0.5);
     font-family: 'Lily Script One';
+    
 }
 
 .quote_web::after{
     content: '\201D';
     position: absolute;
-    top: 90px;
-    left: 910px;
-    font-size: 6em;
+    bottom: -120px;
+    right: 0;
+    font-size: 5em;
     color:rgba(250, 235, 215, 0.5);
     font-family: 'Lily Script One';
+    z-index:2;
 }
 
 #skills_section{
