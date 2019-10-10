@@ -190,6 +190,46 @@ article ul li:hover, footer ul li:hover{
     margin: 0 250px;
 }
 
+.html_logo{
+    border-radius:15px;
+    background-color: #DE4B25;
+    color: white;
+    padding: 5px 5px;
+    font-weight: 600;
+}
+
+.css_logo{
+    border-radius:15px;
+    background-color: #1572B6;
+    color: white;
+    padding: 5px 5px;
+    font-weight: 600;
+}
+
+.js_logo{
+    border-radius:15px;
+    background-color: #FFD93A;
+    color: white;
+    padding: 5px 5px;
+    font-weight: 600;
+}
+
+.git_logo{
+    border-radius:15px;
+    background-color: #00BCD4;
+    color: white;
+    padding: 5px 5px;
+    font-weight: 600;
+}
+
+.ter_logo{
+    border-radius:15px;
+    background-color: #424E5C;
+    color: white;
+    padding: 5px 5px;
+    font-weight: 600;
+}
+
 #gallery_section{
     margin-bottom: 200px;
 }
