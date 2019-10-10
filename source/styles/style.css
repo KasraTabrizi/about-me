@@ -204,7 +204,13 @@ textarea{
     background: transparent;
     border: none;
     outline: none;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.9em;
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 0.9em;
 }
 
 input[type=submit]{
@@ -231,7 +237,7 @@ textarea{
 }
 
 .form_section{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
 }
 
