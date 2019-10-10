@@ -180,6 +180,13 @@ article ul li:hover, footer ul li:hover{
     margin-bottom: 200px;
 }
 
+#skills_section h2::before,
+#skills_section h2::after,
+#gallery_section h2:before,
+#gallery_section h2:after{
+    content:'-';
+}
+
 #skills_section h2{
     margin-bottom: 100px;
     font-size: 2em;
