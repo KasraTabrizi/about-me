@@ -333,6 +333,12 @@ textarea{
     resize: none;
 }
 
+.mapouter{
+    margin-left: 50px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
 .form_section{
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
