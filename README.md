@@ -104,7 +104,7 @@
 ### Perform all the tests
 - [ ] Lighthouse
 - [ ] W3C validator
-- [ ] Monkey test
+- [X] Monkey test
 
 ### Putting the antics back in semantics (but only for the html)
 - [ ] The html is semanticly correct
