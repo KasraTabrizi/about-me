@@ -27,7 +27,7 @@
 ### Text life matters aka typography is real
 - [X] Some words are bolded
 - [X] Some words are italic
-- [ ] Some words have a different color
+- [X] Some words have a different color
 - [X] We aren't using a default font, cause it's not 2004
 - [ ] Contrast is not too low
 - [ ] Typographic hierachy is correct
@@ -38,8 +38,8 @@
 - [X] The text on the page has a good flow
 
 ### Style
-- [ ] Black is almost black but not #000
-- [ ] White is almost white but not #fff
+- [X] Black is almost black but not #000
+- [X] White is almost white but not #fff
 - [X] The website is not an ugly color mess
 - [ ] The styling is consistent
 - [X] It is not some totally different pages thrown together
@@ -47,22 +47,22 @@
 
 
 ### Not everyone has free 4G aka speed matters
-- [ ] Pictures are not too heavy
-- [ ] Pictures are not pixelated
+- [X] Pictures are not too heavy
+- [X] Pictures are not pixelated
 
 ### You want to be found/SEO	
 - [ ] All the keywords you want to be found by are on the page 
-- [ ] Page has an H1 tag
-- [ ] Page has keyword meta tags
+- [X] Page has an H1 tag
+- [X] Page has keyword meta tags
 - [ ] Page has a title with the keywords in
-- [ ] Page loads fast
+- [X] Page loads fast
  
 ### Keep your workspace clean
-- [ ] No unused files in the repo
-- [ ] All files have a good, clear name
-- [ ] Good folder structure
-- [ ] The CSS folder does not have an image folder
-- [ ] Not too many files in the root folder 
+- [X] No unused files in the repo
+- [X] All files have a good, clear name
+- [X] Good folder structure
+- [X] The CSS folder does not have an image folder
+- [X] Not too many files in the root folder 
 
 ### Git(hub) is what you make it
 - [ ] All commits use the correct format (if applied this commit will...)
@@ -93,10 +93,10 @@
 - [ ] Keywords meta tag
 - [ ] Description meta tag
 - [ ] Title of the page is included
-- [ ] Favicon is included
+- [X] Favicon is included
 - [ ] Responsive meta tag is included
-- [ ] Charset is defined
-- [ ] Author is defined
+- [X] Charset is defined
+- [X] Author is defined
 
 ### Data is the new oil
 - [ ] (Google) analytics
@@ -108,27 +108,27 @@
 
 ### Putting the antics back in semantics (but only for the html)
 - [ ] The html is semanticly correct
-- [ ] Navigation is in a nav
-- [ ] Lists use list tags
-- [ ] H tags are used to signal importance
+- [X] Navigation is in a nav
+- [X] Lists use list tags
+- [X] H tags are used to signal importance
 - [ ] No div is used where another element is available
-- [ ] No span is used where another element is available
-- [ ] No inline styling is put on any element
-- [ ] Id's are only used once
+- [X] No span is used where another element is available
+- [X] No inline styling is put on any element
+- [X] Id's are only used once
 - [ ] The same 'type' of elements have the same classes
 - [ ] All images have an alt attribute and a title
 
 ### Just kidding CSS deserves some love too
 - [ ] CSS follows the DRY principle
 - [ ] The CSS does not contain conflicting selectors (multiple definition for the same class/id)
-- [ ] There is no use of !important where it can be avoided
+- [X] There is no use of !important where it can be avoided
 
 ### Errors are to be avoided
 - [ ] No http resources are used on an https website
 - [ ] The console shows no errors
 
 ## Bonus requirements
-- [ ] Use Animation/Transition
+- [X] Use Animation/Transition
 - [ ] Add a logo
-- [ ] Use an icon (font awesome,etc.)
+- [X] Use an icon (font awesome,etc.)
 - [ ] ...
