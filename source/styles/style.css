@@ -1,7 +1,6 @@
 body{
    background-color: #fff;
    box-sizing: border-box;
-   /*font-family: 'Ubuntu', sans-serif;*/
    font-family: 'Rubik', sans-serif;
 }
 
@@ -30,7 +29,7 @@ header h1{
 header img{
     position: absolute;
     top: -5px;
-    animation: rotation 4s infinite ease;
+    animation: rotation 2s infinite ease;
 }
 
 @keyframes rotation {
@@ -347,10 +346,24 @@ textarea{
 }
 
 .mapouter{
+    position: relative;
+    text-align: right;
+    height: 300px;
+    width: 400px;
     margin-left: 50px;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0px 4px 5px 0px rgba(216, 206, 216, 0.795);
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:300px;
+    width:400px;
+}
+
+iframe{
+    border: none;
 }
 
 .form_section{
