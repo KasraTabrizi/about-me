@@ -19,30 +19,30 @@
 ### Content
 - [ ] Openinghours (if needed)
 - [ ] Address (if needed)
-- [ ] Google maps
+- [X] Google maps
 - [ ] Clickable email
-- [ ] A working form (you can use https://formspree.io)
+- [X] A working form (you can use https://formspree.io)
 
 
 ### Text life matters aka typography is real
-- [ ] Some words are bolded
-- [ ] Some words are italic
+- [X] Some words are bolded
+- [X] Some words are italic
 - [ ] Some words have a different color
-- [ ] We aren't using a default font, cause it's not 2004
+- [X] We aren't using a default font, cause it's not 2004
 - [ ] Contrast is not too low
 - [ ] Typographic hierachy is correct
-- [ ] Text has a clear intro, middle, conclusion
-- [ ] Intro, middle, conclusion is style correctly
+- [X] Text has a clear intro, middle, conclusion
+- [X] Intro, middle, conclusion is style correctly
 - [ ] Headline font is a headline font
 - [ ] Body text font is a body text font
-- [ ] The text on the page has a good flow
+- [X] The text on the page has a good flow
 
 ### Style
 - [ ] Black is almost black but not #000
 - [ ] White is almost white but not #fff
-- [ ] The website is not an ugly color mess
+- [X] The website is not an ugly color mess
 - [ ] The styling is consistent
-- [ ] It is not some totally different pages thrown together
+- [X] It is not some totally different pages thrown together
 - [ ] Everything works even if you are colorblind
 
 
