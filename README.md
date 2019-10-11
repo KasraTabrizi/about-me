@@ -129,6 +129,6 @@
 
 ## Bonus requirements
 - [X] Use Animation/Transition
-- [ ] Add a logo
+- [X] Add a logo
 - [X] Use an icon (font awesome,etc.)
 - [ ] ...
