@@ -102,8 +102,8 @@
 - [ ] (Google) analytics
 
 ### Perform all the tests
-- [ ] Lighthouse
-- [ ] W3C validator
+- [X] Lighthouse
+- [X] W3C validator
 - [X] Monkey test
 
 ### Putting the antics back in semantics (but only for the html)
