@@ -1,6 +1,6 @@
 # More about me
 
-## reate a basic portfolio - Kasra Tabrizi
+## Create a basic portfolio - Kasra Tabrizi
 
 
 ## Requirements
