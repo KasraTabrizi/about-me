@@ -291,3 +291,110 @@ footer ul li:hover {
     border-radius: 15px;
     box-shadow: 0px 4px 18px 0px rgba(163, 162, 163, 0.836);
 }
+
+#info_wrapper {
+    padding-right: 20px;
+}
+
+#info_wrapper h2 {
+    margin-top: 0;
+}
+
+#info_wrapper p {
+    margin-top: 30px;
+}
+
+#info_wrapper ul {
+    margin-right: 100px;
+}
+
+#info_wrapper p small a {
+    text-decoration: none;
+    color: #000;
+}
+
+#footer_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em,1fr));
+    column-gap: 2em;
+    row-gap: 1em;
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 70%;
+    margin:0 auto;
+}
+
+/*Styling the contact form*/
+
+input[type=text],
+input[type=email],
+textarea {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.9em;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 0.9em;
+}
+
+input[type=submit] {
+    border: none;
+    background: none;
+    background-color: rgba(198, 160, 91, 0.8);
+    color: rgba(0, 0, 0, 0.616);
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    box-shadow: 0px 4px 5px 0px rgba(216, 206, 216, 0.795);
+    transition: 0.2s ease-in;
+}
+
+input[type=submit]:hover {
+    transform: translateY(2px);
+    color: #fff;
+}
+
+textarea {
+    resize: none;
+}
+
+#mapouter{
+    position: relative;
+    text-align: right;
+    height: 300px;
+    width: 400px;
+    margin-left: 50px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 5px 0px rgba(216, 206, 216, 0.795);
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 300px;
+    width: 400px;
+}
+
+iframe {
+    border: none;
+}
+
+.form_section {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+small {
+    font-size: 0.7em;
+}
+
+.copyright {
+    text-align: center;
+}
