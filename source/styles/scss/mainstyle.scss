@@ -1,5 +1,4 @@
-$color_background: #fff;
-$font_main: 'Rubik', sans-serif;
+@import 'variables';
 
 @mixin flexible($justify,$wrap,$align_content,$align_items){
     display: flex;
