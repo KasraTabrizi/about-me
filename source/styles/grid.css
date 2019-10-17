@@ -1,8 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
 header{
     display: grid;
     grid-template-columns: repeat(10,1fr);
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 18px 0px rgba(216, 206, 216, 0.795);
 }
 
 header a{
@@ -11,9 +26,10 @@ header a{
 }
 
 header h1{
-    grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 6;
     place-self: center;
+    justify-self: flex-start;
 }
 
 nav ul li{
@@ -27,7 +43,7 @@ nav a{
 }
 
 nav{
-    grid-column-start: 8;
+    grid-column-start: 7;
     grid-column-end: 10;
     place-self: center;
 }
@@ -40,7 +56,7 @@ nav{
     justify-items: center;
     column-gap: 2em;
     row-gap: 2em;
-    
+    margin:150px 0;
 }
 
 .profile_box,
