@@ -180,6 +180,7 @@ footer{
     margin-bottom: $margin_bottom_sections;
 
     h2 {
+        padding-top: $padding_header;
         margin-bottom: $margin_bottom_sections / 2;
         font-size: 2em;
 
@@ -192,7 +193,7 @@ footer{
 
 .skill_wrapper {
     @include flexible(space-evenly,wrap,none,none);
-    margin: 0 250px;
+    margin: 0 400px;
 }
 
 /*Styling for the name of each skills and the level*/
@@ -235,10 +236,10 @@ footer{
     margin-bottom: $margin_bottom_sections;
 
     h2{
+        padding-top: $padding_header;
         text-align: center;
         font-size: 2em;
         margin-bottom: $margin_bottom_sections / 2;
-
         &::before,
         &::after{
             content: '-';
