@@ -159,21 +159,15 @@ footer{
     text-align: center;
     color: #5E5B52;
 
-    &::before,
-    &::after {
-        position: absolute;
-        font-size: 5em;
-        color: rgba(250, 235, 215, 0.5);
-        font-family: 'Lily Script One';
-    }
-
     &::before {
+        @extend %quotation_mark;
         content: '\201C';
         top: -10px;
         left: 0;
     }
 
     &::after {
+        @extend %quotation_mark;
         content: '\201D';
         bottom: -120px;
         right: 0;
@@ -186,7 +180,7 @@ footer{
     margin-bottom: $margin_bottom_sections;
 
     h2 {
-        margin-bottom: 100px;
+        margin-bottom: $margin_bottom_sections / 2;
         font-size: 2em;
 
         &::before,
@@ -197,7 +191,7 @@ footer{
 }
 
 .skill_wrapper {
-    @include flexible(space-evenly,none,none,none);
+    @include flexible(space-evenly,wrap,none,none);
     margin: 0 250px;
 }
 
@@ -211,6 +205,11 @@ footer{
 .css_logo {
     @extend %skill_logo;
     background-color: #1572B6;
+}
+
+.sass_logo {
+    @extend %skill_logo;
+    background-color: #D56FA4;
 }
 
 .js_logo {
@@ -227,7 +226,10 @@ footer{
     @extend %skill_logo;
     background-color: #424E5C;
 }
-
+.php_logo {
+    @extend %skill_logo;
+    background-color: #3498DB;
+}
 
 #gallery_section {
     margin-bottom: $margin_bottom_sections;
@@ -235,7 +237,7 @@ footer{
     h2{
         text-align: center;
         font-size: 2em;
-        margin-bottom: 100px;
+        margin-bottom: $margin_bottom_sections / 2;
 
         &::before,
         &::after{
