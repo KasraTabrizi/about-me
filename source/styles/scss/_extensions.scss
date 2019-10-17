@@ -1,0 +1,34 @@
+@mixin flexible($justify,$wrap,$align_content,$align_items){
+    display: flex;
+    @if $justify != 'none'{
+        justify-content: $justify;
+    }
+    @if $wrap != 'none'{
+        flex-wrap: $wrap;
+    }
+    @if $align_items != 'none'{
+        align-items: $align_items;
+    }
+    @if $align_content != 'none'{
+        align-content: $align_content;
+    }
+}
+
+%social_media_style{
+    padding: 20px 0;
+        li{
+            padding-right: 10px;
+            transition: 0.3s cubic-bezier(.12, -0.57, .77, 1.41);
+
+            &:hover{
+                transform: scale(1.2) translateY(-5px);
+            }
+        }
+}
+
+%skill_logo{
+    border-radius: 15px;
+    color: #fff;
+    padding: 5px 5px;
+    font-weight: 600;
+}
