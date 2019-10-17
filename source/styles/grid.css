@@ -115,15 +115,14 @@ header ul li:hover:after {
     width: 100%;
     object-fit: contain;
     border-radius: 25px 25px 0 25px;
-    /*border: 4px solid rgba(163, 133, 96, 0.5);*/
+    border: 3px solid rgba(163, 133, 96, 0.5);
 }
 
 .profile_description {
-    /*margin-left: 50px;*/
     border-radius: 25px 25px 25px 0;
     padding: 0 50px;
     font-size: 1em;
-    /*border: 4px solid rgba(96, 106, 163, 0.5);*/
+    border: 3px solid rgba(96, 106, 163, 0.5);
     background-color: rgba(163, 133, 96, 0.5);
 }
 
@@ -132,4 +131,163 @@ article h3 {
     font-size: 0.8em;
     padding-bottom: 10px;
     border-bottom: 2px solid #000;
+}
+article ul,
+footer ul {
+    padding: 20px 0;
+}
+
+article ul li,
+footer ul li {
+    padding-right: 10px;
+    transition: 0.3s cubic-bezier(.12, -0.57, .77, 1.41);
+}
+
+article ul li:hover,
+footer ul li:hover {
+    transform: scale(1.2) translateY(-5px);
+}
+
+#quote_section {
+    margin-bottom: 200px;
+}
+
+.quote_wrapper {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(198, 160, 91, 0.8);
+    border-radius: 25px;
+    font-size: 2em;
+    position: relative;
+    padding: 20px;
+}
+
+.quote_web {
+    text-align: center;
+    color: #5E5B52;
+}
+
+.quote_web::before,
+.quote_web::after {
+    position: absolute;
+    font-size: 5em;
+    color: rgba(250, 235, 215, 0.5);
+    font-family: 'Lily Script One';
+}
+
+.quote_web::before {
+    content: '\201C';
+    top: -10px;
+    left: 0;
+}
+
+.quote_web::after {
+    content: '\201D';
+    bottom: -120px;
+    right: 0;
+    z-index: 2;
+}
+
+#skills_section {
+    text-align: center;
+    margin-bottom: 200px;
+}
+/*Adding a line before and after the skill and gallery header*/
+
+#skills_section h2::before,
+#skills_section h2::after,
+#gallery_section h2:before,
+#gallery_section h2:after {
+    content: '-';
+}
+
+#skills_section h2 {
+    padding-top: 100px;
+    margin-bottom: 100px;
+    font-size: 2em;
+}
+
+.skill_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+    justify-content: center;
+    column-gap: 2em;
+    margin: 0 250px;
+}
+
+/*Styling for the name of each skills and the level*/
+
+.html_logo {
+    border-radius: 15px;
+    background-color: #DE4B25;
+    color: #fff;
+    padding: 5px 5px;
+    font-weight: 600;
+}
+
+.css_logo {
+    border-radius: 15px;
+    background-color: #1572B6;
+    color: #fff;
+    padding: 5px 5px;
+    font-weight: 600;
+}
+
+.js_logo {
+    border-radius: 15px;
+    background-color: #FFD93A;
+    color: #fff;
+    padding: 5px 5px;
+    font-weight: 600;
+}
+
+.git_logo {
+    border-radius: 15px;
+    background-color: #00BCD4;
+    color: #fff;
+    padding: 5px 5px;
+    font-weight: 600;
+}
+
+.ter_logo {
+    border-radius: 15px;
+    background-color: #424E5C;
+    color: #fff;
+    padding: 5px 5px;
+    font-weight: 600;
+}
+
+#gallery_section {
+    margin-bottom: 200px;
+}
+
+#gallery_section h2 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 100px;
+}
+
+.gallery_wrapper {
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(15em,1fr));
+    column-gap: 1em;
+    justify-content: center;
+    margin: 0 200px;
+}
+
+.gallery_wrapper img {
+    width: 100%;
+    max-width: 200px;
+    margin: 20px;
+    transition: 0.5s ease-in;
+}
+
+
+/*Animation for enlarging the images as you hover over them*/
+
+.gallery_wrapper img:hover {
+    transform: scale(1.5);
+    border-radius: 15px;
+    box-shadow: 0px 4px 18px 0px rgba(163, 162, 163, 0.836);
 }
