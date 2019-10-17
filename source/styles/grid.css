@@ -30,12 +30,22 @@ header h1{
     grid-column-end: 6;
     place-self: center;
     justify-self: flex-start;
+    transition: 0.2s ease-in;
+}
+
+header h1:hover {
+    transform: scale(0.9);
 }
 
 nav ul li{
     display: inline-block;
     margin-right: 0.4em;
     margin-bottom: 5px;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
 }
 
 nav a{
@@ -47,21 +57,58 @@ nav{
     grid-column-end: 10;
     place-self: center;
 }
+header ul li {
+    position: relative;
+}
+/*Adding line animation below the menu in the navbar*/
+
+header ul li:after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    content: '';
+    border-bottom: 3px solid rgba(163, 133, 96, 0.5);
+    animation: line-disappear 0.4s forwards;
+    padding-bottom: 2px;
+}
+
+header ul li:hover:after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    content: '';
+    border-bottom: 3px solid rgba(163, 133, 96, 0.5);
+    animation: line-appear 0.7s forwards;
+    padding-bottom: 2px;
+}
+
+@keyframes line-appear {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes line-disappear {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0%;
+    }
+}
 
 /*PROFILE SECTION*/
 .profile_section{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10em, 30em));
+    grid-template-columns: repeat(auto-fit, minmax(10em, 20em));
     justify-content: center;
     justify-items: center;
     column-gap: 2em;
     row-gap: 2em;
-    margin:150px 0;
-}
-
-.profile_box,
-.profile_description{
-  border: 1px solid black;
+    margin: 150px 0;
 }
 
 .profile_img {
